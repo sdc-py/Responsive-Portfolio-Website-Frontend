@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
+
+    <title>My Portfolio</title>
+
+    <!-- <style>
+        * body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(42, 42, 76);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left{
+            font-size: 2;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+        .firstsection >div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+        .purple{
+            color: rgb(136, 81, 136);
+        }
+    header{
+        font-family: poppins;
+    }
+    main{
+        font-family: poppins;
+    }
+    </style> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">SDC's Portfolio</a>
+        <i class='bx bx-menu' id='menu-icon'></i>
+        <nav class="navbar" class="active">
+            <a href="#home" >Home</a>
+            <a href="#about" >About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome Everyone!</h3>
+            <h1>This is SDC</h1>
+            <h3>I am a <span class="multi-text"></span></h3>
+            <p>Welcome to my portfolio website! I am delighted to have you here, and I hope you find this space a
+                captivating glimpse into my creative world. As you navigate through these pages, you will discover a
+                collection of my finest works, showcasing my passion and expertise in various fields like Web
+                Development, Machine Learning, Prompt Engineering, Python, IoT, Video Editing and so on.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="/images/bg.png" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <!-- <h3>Frontend developer</h3> -->
+            <p>My name is Soumyadeep Chattoraj, but you can call me SDC. I hail from the vibrant town of Asansol.
+                Currently, I am in my third year pursuing a B.Tech degree from Kalinga Institute of Industrial
+                Technology. Beyond my academic pursuits, I have a deep passion for anime and find solace in the
+                captivating worlds they create. Additionally, I am a fitness enthusiast and you can often find me at the
+                gym, pushing my limits and striving for personal growth. This combination of interests and experiences
+                has shaped my creative journey and fuels my desire to explore innovative solutions in my chosen field.
+                I'm excited to share my story and showcase my work with you. Feel free to delve further into my
+                portfolio and get a glimpse of my unique perspective.</p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+
+        </div>
+    </section>
+    <section class="portfolio" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/port1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Frontend Development</h4>
+                    <p>Projects based on Simple HTML, CSS, JavaScript</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/port2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Machine Learning Basics</h4>
+                    <p>Project on K Means Clustering, RNN and CNN</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/port3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Internet of Things</h4>
+                    <p>Project on People's Safety using embedded systems and cloud</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="images/port4.jpg" alt="">
+                <div class="portfolio-layer">
+                <h4>Video Editing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nemo?</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>    
+        </div> -->
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me! </span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by SDC | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-up-arrow'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
